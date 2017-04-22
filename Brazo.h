@@ -61,6 +61,7 @@ int vaciaLP(ListaP pila);
 void push(ListaP *pila, Nodo *nodo);
 Nodo *pop(ListaP *pila);
 void listarP(ListaP pila);
+int encolar(int boolbrazo, Brazo *brazo, ListaCC *listacc);
 
 #endif // COLA_H_INCLUDED
 
