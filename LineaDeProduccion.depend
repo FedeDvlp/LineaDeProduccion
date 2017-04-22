@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1491320231 source:/home/homeland/EDA/LineaDeProduccion/Brazo.c
+	"Brazo.h"
+	<stdio.h>
+	<stdlib.h>
+
+1492700267 /home/homeland/EDA/LineaDeProduccion/Brazo.h
+
+1492525678 source:/home/homeland/EDA/LineaDeProduccion/ListaColaCircular.c
+	<stdio.h>
+	<stdlib.h>
+	"Brazo.h"
+

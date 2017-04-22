@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "Brazo.h"
+
 int vacia(ListaP pila){
  return(pila.tope==NULL);
 }

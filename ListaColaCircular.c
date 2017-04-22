@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "Brazo.h"
 
 void insertarLCC(ListaCC *cola, Nodo *nodo){
     if(vacia(*cola)){
