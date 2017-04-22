@@ -59,11 +59,16 @@ int generaPieza(Brazo *brazo, int ident){
     return 0;
 }
 
-void encolar(int boolBrazo, Brazo *brazo, ListaCC *listacc){
+int encolar(int boolBrazo, Brazo *brazo, ListaCC *listacc){
+    int acumulador;
     srand(time(NULL));
     if(boolBrazo==1){//Pasa una pieza de las colas individuales de cada brazo a la cola circular general
         if((rand()&2)==1){
         insertarLCC(listacc,borrar(listacc));
+        acumulador = acumulador + 1;
+        return acumulador;
         }
+    return 0;
     }
+return 0;
 }
